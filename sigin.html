@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <link rel="icon" type="x-icon" href="i.png">
+</head>
+<style>
+    body{
+        background-image: url("signin.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    nav{
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    }
+    .logo{
+        font-size: 50px;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bold;
+        color: whitesmoke;
+        text-shadow: 2px 2px 5px;
+    }
+    .Menu a{
+        text-decoration: none;
+        padding: 20px;
+        font-size: 20px;
+        color: white;
+    }
+    a:hover{
+    color: aqua;
+    }
+    form{
+        width: 400px;
+        height: 400px;
+        background-color: D5DCE3;
+        border: 1px solid black;
+        border-radius: 30px;
+        text-align: center;
+        padding: 80px;
+        margin: 55px 450px;
+        box-shadow: 2px 2px;
+        background-image: "sign in.jpg";
+    }
+    h1{
+        color: black;
+        margin-top: 5px;
+        font-size: 36px;
+        font-family: 'Courier New', Courier, monospace;
+        margin-top: -30px;
+    }
+    input.a{
+        border-radius: 5px;
+    }
+    input.a:hover{
+        background-color: red;
+        color: white;
+    }
+    input.a1:hover{
+        background-color: red;
+        color: white;
+    }
+    label{
+        font-weight: bold;
+        padding-right: 340px;
+        font-size: 18px;
+    }
+    label.p{
+        padding-right: 323px;
+    }
+    label.p1{
+        padding-right: 240px;
+    }
+    label.p2{
+        padding-right: 320px;
+    }
+    p{
+        font-weight: bold;
+    }
+    a{
+        text-decoration: none;
+    }
+    input{
+    border: none;
+    border-radius: 6px;
+    width: 100%;
+    height: 30px;
+    }
+    input.a{
+        border: none;
+        border-radius: 6px;
+        width: 45%;
+        height: 30px;
+        /* float: left; */
+    }
+    /* input.a1{
+        border: none;
+        border-radius: 6px;
+        width: 45%;
+        height: 30px;
+        float: right;
+    } */
+    input.search{
+        width: 100%;
+        height: 25px;
+    }
+</style>
+<body>
+    <nav>
+        <div class="logo">I-Store</div>
+        <div class="Menu">
+                <a href="index.html">HOME</a>
+                <a href="Laptop.html">LAPTOP</a>
+                <a href="ContactUs.html">CONTACT US</a>
+                <a href="login.html">LOG IN</a>
+        </div>
+        <div>
+            <input class="search" type="text" name="search" id="search" placeholder="search">
+        </div>
+        </nav><br><br><br>
+    <form action="abc2.html" autocomplete="off">
+        <h1>Create New Account</h1><br>
+        <label for="t1">Name:</label>
+        <input type="text" id="t1" placeholder="Ex.John"> <br> <br>
+
+        <label class="p" for="t2">Email-id:</label>
+        <input type="email" id="t2" placeholder="Ex.abc@test.com"><br> <br>
+        
+        <label class="p2" for="t3">Password:</label>
+        <input type="password" id="t4" placeholder="Password"><br> <br>
+
+        <label class="p1" for="t4">Comfirm-Password:</label>
+        <input type="password" id="t4" placeholder="Re-Password"><br> <br>
+
+        <p>I agree your <a href="#">Terms and Condition</a></p><br>
+
+        <input class="a" type="button" onclick="validationOf()" value="Sign In"></button>
+        <!-- <input class="a1" type="Reset"></button> <br><br> -->
+        
+        <p>Already have account? <a href="login.html">Login</a></p>
+    </form>
+</body>
+</html>

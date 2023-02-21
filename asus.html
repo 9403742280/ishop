@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asus Laptop</title>
+    <link rel="icon" type="x-icon" href="i.png">
+</head>
+<style>
+    body{
+        background-image: url("cart.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% ;
+    }
+    nav{
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    }
+    .logo{
+        font-size: 50px;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bold;
+        color: whitesmoke;
+        text-shadow: 2px 2px 5px;
+    }
+    .Menu a{
+        text-decoration: none;
+        padding: 20px;
+        font-size: 20px;
+        color: white;
+    }
+    a:hover{
+    color: aqua;
+    }
+    input{
+        border: none;
+        border-radius: 4px;
+    }
+    input.search{
+        width: 100%;
+        height: 25px;
+    }
+    h1.head{
+        text-align: center;
+        font-size: 50px;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    height: 498px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    margin-right: 160px;
+    float: right;
+    background-color: white;
+    }
+
+    .price {
+    color: black;
+    font-size: 22px;
+    }
+
+    .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    }
+
+    .card button:hover {
+    opacity: 0.7;
+    }
+</style>
+<body>
+    <nav>
+        <div class="logo">I-Store</div>
+        <div class="Menu">
+                <a href="index.html">HOME</a>
+                <a href="Laptop.html">LAPTOP</a>
+                <a href="ContactUs.html">CONTACT US</a>
+                <a href="login.html">LOG IN</a>
+        </div>
+        <div>
+            <input class="search" type="text" name="search" id="search" placeholder="search">
+        </div>
+        </nav><br><br><br>
+    <h1 class="head">Asus Laptop</h1>
+
+    <div class="card">
+        <img src="asus1.jpg" alt="Denim Jeans" style="width:100%" height="224px">
+        <h2>ASUS TUF Gaming A17</h2>
+        <p class="price">₹81,990</p>
+        <p>TUF Gaming A17 with 90Whr Battery Ryzen 7 Octa Core AMD R7-4800H - (8 GB/512 GB SSD/Windows 11 Home/4 GB Graphics/NVIDIA GeForce RTX RTX 3050/144 Hz</p>
+        <p><button>Add to Cart</button></p>
+      </div>
+      <div class="card">
+        <img src="asus2.jpg" alt="Denim Jeans" style="width:100%" height="224px">
+        <h2>ASUS Vivobook Pro 15</h2>
+        <p class="price">₹66,990</p>
+        <p>ASUS Vivobook Pro 15 Ryzen 7 Octa Core AMD R7-4800H - (16 GB/512 GB SSD/Windows 11 Home/4 GB Graphics/NVIDIA GeForce GTX 1650 Max Q) M6500IH-HN702WS Creator Laptop</p>
+        <p><button>Add to Cart</button></p>
+      </div>
+      <div class="card">
+        <img src="asus3.jpg" alt="Denim Jeans" style="width:100%" height="224px">
+        <h2>ASUS VivoBook Ultra 14</h2>
+        <p class="price">₹55,990</p>
+        <p>ASUS VivoBook Ultra 14 (2022) Core i5 11th Gen - (16 GB/512 GB SSD/Windows 11 Home) X413EA-EB532WS Thin and Light Laptop  (14 inch, Bespoke Black, 1.40 kg, With MS Office)</p>
+        <p><button>Add to Cart</button></p>
+      </div>
+</body>
+</html>

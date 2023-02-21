@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dell Laptop</title>
+    <link rel="icon" type="x-icon" href="i.png">
+</head>
+<style>
+    body{
+        background-image: url("cart.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% ;
+    }
+    nav{
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    }
+    .logo{
+        font-size: 50px;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bold;
+        color: whitesmoke;
+        text-shadow: 2px 2px 5px;
+    }
+    .Menu a{
+        text-decoration: none;
+        padding: 20px;
+        font-size: 20px;
+        color: white;
+    }
+    a:hover{
+    color: aqua;
+    }
+    input{
+        border: none;
+        border-radius: 4px;
+    }
+    input.search{
+        width: 100%;
+        height: 25px;
+    }
+    h1.head{
+        text-align: center;
+        font-size: 50px;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    height: 498px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    margin-right: 160px;
+    float: right;
+    background-color: white;
+    }
+
+    .price {
+    color: black;
+    font-size: 22px;
+    }
+
+    .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    }
+
+    .card button:hover {
+    opacity: 0.7;
+    }
+</style>
+<body>
+    <nav>
+        <div class="logo">I-Store</div>
+        <div class="Menu">
+                <a href="index.html">HOME</a>
+                <a href="Laptop.html">LAPTOP</a>
+                <a href="ContactUs.html">CONTACT US</a>
+                <a href="login.html">LOG IN</a>
+        </div>
+        <div>
+            <input class="search" type="text" name="search" id="search" placeholder="search">
+        </div>
+        </nav><br><br><br>
+    <h1 class="head">Dell Laptop</h1>
+    <div class="card">
+        <img src="dell1.jpg" alt="Denim Jeans" style="width:100%" height="224px">
+        <h2>DELL Inspiron Athlon</h2>
+        <p class="price">₹30,929</p>
+        <p>DELL Inspiron Athlon Dual Core 3050U - (8 GB Graphics/256 GB SSD/Windows 11 Home) Inspiron 3525 Notebook NVIDIA GeForce RTX RTX 3050 Thin and Light Laptop</p>
+        <p><button>Add to Cart</button></p>
+      </div>
+      <div class="card">
+        <img src="dell2.jpg" alt="Denim Jeans" style="width:100%" height="224px">
+        <h2>DELL Ryzen 5 Hexa</h2>
+        <p class="price">₹70,990</p>
+        <p>DELL Ryzen 5 Hexa Core AMD R5-5600H - (16 GB/512 GB SSD/Windows 11 Home/4 GB Graphics/NVIDIA GeForce GTX GTX 1650 Max Thin and Light Laptop</p>
+        <p><button>Add to Cart</button></p>
+      </div>
+      <div class="card">
+        <img src="dell3.jpg" alt="Denim Jeans" style="width:100%" height="224px">
+        <h2>DELL Core i5</h2>
+        <p class="price">₹72,317</p>
+        <p>DELL Core i5 11th Gen - (16 GB/512 GB SSD/Windows 11 Home/4 GB Graphics/NVIDIA GeForce RTX 3050) G15-5511 Gaming Lapto Thin and Light Laptop </p>
+        <p><button>Add to Cart</button></p>
+      </div>
+</body>
+</html>
